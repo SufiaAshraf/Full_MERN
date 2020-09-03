@@ -1,0 +1,27 @@
+{
+  "name": "auth_server",
+  "version": "1.0.0",
+  "description": "MERN Authentication, Login, Register, verification email, Facebook, Google, Forget Password Full Authentication  Login and Register with verification email and Facebook, Google Login with Forget and Reset Password using taliwind css tutorial link: https://www.youtube.com/watch?v=y7yFXKsMD_U&fbclid=IwAR3QCM37B-Bi5SE27NcjRS07HBwff6hQwrBuLR4mDlpxu6MEXhWpRrdrOIM ![Github search](https://user-images.githubusercontent.com/25937925/77971844-11870400-72f0-11ea-8224-7e21a4f02a0a.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.4.0",
+    "google-auth-library": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0"
+  }
+}
